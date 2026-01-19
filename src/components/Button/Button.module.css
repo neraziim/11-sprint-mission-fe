@@ -1,0 +1,42 @@
+/* buttons */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-sizing: border-box;
+  text-wrap: nowrap;
+  font-family: Pretendard;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--gray100, #f3f4f6);
+  border-radius: 0.5rem;
+  width: 8rem;
+  padding: 0 1.4375rem;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.625;
+  a {
+    color: inherit;
+  }
+}
+
+.btnLarge {
+  border-radius: 2.5rem;
+  width: 100%;
+  height: 3.5rem;
+  padding: 0 7.75rem;
+  font-size: 1.25rem;
+}
+
+.btnBanner {
+  color: var(--gray50);
+}
+
+.primary {
+  background: var(--blue100, #3692ff);
+}
+
+.disabled {
+  background-color: var(--gray400);
+}
