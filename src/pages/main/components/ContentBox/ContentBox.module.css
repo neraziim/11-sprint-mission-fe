@@ -1,0 +1,51 @@
+/* 본문 상자 */
+.boxContent {
+  display: flex;
+  background-color: #fcfcfc;
+  width: 61.75rem;
+  margin: 0 auto;
+  gap: 4rem;
+}
+
+/*그림-본문 위치 바꾸기*/
+.boxReverse {
+  flex-direction: row-reverse;
+}
+
+/*오른쪽 본문 왼쪽정렬*/
+.txtRight {
+  text-align: left;
+}
+
+/*왼쪽 본문 오른쪽정렬*/
+.txtLeft {
+  text-align: right;
+}
+
+/*강조*/
+.blueBold {
+  color: var(--blue100, #3692ff);
+  font-family: Pretendard;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.444;
+}
+
+/*본문 줄간격 및 글자 간격*/
+.boxContent h1 {
+  margin: 0.75rem 0 1.5rem;
+  letter-spacing: 0.05rem;
+}
+
+/*본문 작은 글씨*/
+.infoFeature {
+  color: var(--gray700, #374151);
+  font-family: Pretendard;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.333;
+  white-space: nowrap;
+  /* 시안처럼 폰트 설정했으나 3번째 항목의 내용이 넘쳐 nowrap 추가함 */
+}

@@ -1,0 +1,31 @@
+/* banner 상,하단 공통*/
+.banner {
+  height: 33.75rem;
+  width: 100%;
+  background-color: var(--bannerblue, #cfe5ff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.contents {
+  width: 69.375rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerTxt {
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-bottom: 3.75rem;
+}
+
+img.panda {
+  width: 46.625rem;
+  height: 21.25rem;
+}
+
+img.two_panda {
+  width: 46.625rem;
+  height: 24.81rem;
+}
